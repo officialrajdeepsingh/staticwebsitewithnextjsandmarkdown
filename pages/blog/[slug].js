@@ -28,13 +28,12 @@ export default function PostPage({ content, frontmatter }) {
         title={frontmatter.title} 
         description={frontmatter.summary}
         openGraph={{
-          url: 'https://markdownnextjs.com',
+          url: 'https:officialrajdeepsingh.dev',
           title: frontmatter.title,
           description: frontmatter.summary ,
           type: 'article',
           article: {
             publishedTime: frontmatter.date,
-            section: 'Section II',
             authors: [
               'https://officialrajdeepsingh.dev/pages/about',
             ],

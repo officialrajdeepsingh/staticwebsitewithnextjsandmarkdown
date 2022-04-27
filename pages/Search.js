@@ -19,7 +19,7 @@ export default function Search() {
             }
         }
     )
-console.log(posts)
+    console.log(posts)
 
     return (
         <div>
@@ -32,15 +32,10 @@ console.log(posts)
 
                     <div className="col-lg-8 m-auto">
 
-                    {posts.map((post, index) => (
-              <Post key={index} post={post} />
-            ))}
-
-
+                        {posts.map((post, index) => (
+                            <Post key={index} post={post} />
+                        ))}
                     </div>
-
-
-
                 </div>
             </div>
         </div>

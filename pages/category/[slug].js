@@ -12,13 +12,13 @@ export default function Category({ posts }) {
 
   return (
     <>
-      <NextSeo
-        title="category page"
-        description="Category page"
+     <NextSeo
+     title= 'Access your category realted articles'
+     description= 'Access your category realted articles'
         openGraph={{
-          url: 'https://markdownnextjs.com',
-          title: 'catg',
-          description: 'Category page',
+          url: 'https://officialrajdeepsingh.dev',
+          title: 'Access your category realted articles',
+          description: 'Access your category realted articles',
 
           images: [
             {

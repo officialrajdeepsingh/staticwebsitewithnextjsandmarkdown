@@ -14,7 +14,7 @@ export default function tag({ posts }) {
 
   return (
     <>
-      <NextSeo
+   <NextSeo
      title= 'Access your tag realted articles'
      description= 'Access your tag realted articles'
         openGraph={{
